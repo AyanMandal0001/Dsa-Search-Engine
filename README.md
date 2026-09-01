@@ -1,4 +1,4 @@
-# DSA   Problem Search Engine 🔍
+# DSA   Problem Search Engine 
 
 A lightweight **search engine** designed for **DSA (Data Structures & Algorithms) problems**.  
 It leverages **web scraping**, **efficient data storage**, and a **Node.js backend** with **TF-IDF** to deliver relevant results through a responsive web interface.
