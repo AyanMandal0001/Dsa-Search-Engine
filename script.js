@@ -5,7 +5,7 @@ const spinner = document.getElementById("spinner");
 
 // Dynamic URL setup: detects if you are running locally or on the live web
 const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-const backendUrl = isLocal ? 'http://localhost:3000' : 'YOUR_DEPLOYED_URL_HERE'; // <-- PASTE YOUR LINK HERE
+const backendUrl = isLocal ? 'http://localhost:3000' : 'https://dsa-search-engine-bnf6.onrender.com'; // <-- PASTE YOUR LINK HERE
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
